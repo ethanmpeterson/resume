@@ -4,13 +4,13 @@
 \usepackage{hyperref}
 
 \name{Ethan Peterson}
-\address{647 269 7873 \\ ethan@petetech.net}
+\address{650 248 0819 \\ ethan@petetech.net}
 \address{
   \href{http://portfolio.petetech.net}{Projects} \\
   \href{https://github.com/ethanmpeterson}{GitHub} \\
   \href{https://www.linkedin.com/in/ethanmpeterson}{LinkedIn}
 }
-\address{32 Roxborough St. E M4W 1V6 Toronto, Ontario, Canada}
+\address{1929 Crisanto Ave. \#532 94040 Mountain View, California, United States}
 
 \begin{document}
 
@@ -20,12 +20,11 @@
 
 \begin{rSection}{Education}
 
-\begin{rSubsection}{Queen's University}{September 2018 - May 2023}{Intended
-    Designation: BASc Computer Engineering (Entering 4th Year)}{Kingston, Ontario}
-\item Dean's Scholar, awarded to students with a GPA of 3.5 or higher (1st, 
-  2nd \& 3rd year)
+\begin{rSubsection}{Queen's University}{September 2018 - May 2023}{BASc Computer Engineering}{Kingston, Ontario}
+\item Dean's Scholar, awarded to students with a GPA of 3.5 or higher
 \item Principal's Entrance Scholarship (2018)
-\item GPA: 4/4.3
+\item Queen's Formula SAE Racing Electrical Lead
+\item GPA: 4.1/4.3
 \end{rSubsection}
 \end{rSection}
 
@@ -35,22 +34,28 @@
 
 \begin{rSection}{Experience}
 
-\begin{rSubsection}{Kepler Communications}{May 2021 - Present}{Hardware
+\begin{rSubsection}{Tesla}{May 2023 - Present}{Software Integration Engineer}{Palo Alto, California}
+  \item Lead the firmware integration effort for vehicle efficiency and idle energy consumption with a focus on vehicle sleep.
+  \item Reduced Cybertruck idle consumption by 40x.
+  \item Developed firmware to support putting various controllers in their low-power states.
+  \item Participated in the design and implementation of ethernet sleep/wake for Cybertruck's ethernet communications architecture.
+\end{rSubsection}
+
+\begin{rSubsection}{Kepler Communications}{May 2021 - August 2022}{Hardware
     Engineering Intern}{Toronto, Ontario}
-    % \item Working with full time engineers in upcoming satellite designs.
-    \item Designed hardware and software for a motor controller PCB.
-    \item Owned the requirements capture, scoping, schematic, layout and release of a flight PCB design. This design includes several high speed Aurora lanes, 10G Ethernet and distributes over a kilowatt of power.
-    \item Continuing to contribute PCB designs that support Kepler's network infrastructure and overarching goal of putting the internet in space.
+    \item Designed a motor controller PCB used in the development of an Antenna Pointing Mechanism (APM).
+    \item Implemented drivers and added firmware support for the encoders, temperature sensors, and motors on the motor controller PCB.
+    \item Owned the requirements capture, scoping, schematic, layout, and release of a flight PCB design. This design includes several high speed Aurora lanes, 10G Ethernet, and distributes over a kilowatt of power.
 \end{rSubsection}
 
 \begin{rSubsection}{Kepler Communications}{May 2020 - August 2020}{Hardware
     Test Engineering Intern}{Toronto, Ontario}
-\item Worked with full time engineers to bring the company's next generation of
-  low earth orbit (LEO) satellites to fruition.
+\item Worked with full-time engineers to bring the company's next generation of
+  Low Earth Orbit (LEO) satellites to fruition.
 \item Designed a selection of custom PCBs to support the satellite manufacturing
   process. Designs include, but are not limited to, internet enabled JTAG
   debuggers for FPGAs, flight sensor calibration PCBs, TVAC capable wiring
-  harnesses and power boards with slew rate control.
+  harnesses, and power boards with slew rate control.
 \item Debugged flight boards using an oscilloscope with voltage
   and current probes.
 \item Wrote the Python and C code required to test each PCB design as well as
@@ -58,7 +63,7 @@
 \end{rSubsection}
 
 %------------------------------------------------
-
+\newpage
 \begin{rSubsection}{Wattpad Inc.}{May 2019 - August 2019}{Associate
     Engineer}{Toronto, Ontario}
 \item Worked with the Velocity squad on a variety of internal tools for Wattpad engineering.
@@ -84,13 +89,13 @@
   to minimize bookkeeping errors.
 \end{rSubsection}
 %------------------------------------------------
-\begin{rSubsection}{Braincubator}{June 2017 - August 2017}{Backend
-    Developer}{Toronto, Ontario}
-\item Summer internship with a start-up company specialized in delivering stem-based
-  workshops.
-\item Programmed the backend of the company website using Python and developed a Microsoft
-  Kinect demo using Java.
-\end{rSubsection}
+%% \begin{rSubsection}{Braincubator}{June 2017 - August 2017}{Backend
+%%     Developer}{Toronto, Ontario}
+%% \item Summer internship with a start-up company specialized in delivering stem-based
+%%   workshops.
+%% \item Programmed the backend of the company website using Python and developed a Microsoft
+%%   Kinect demo using Java.
+%% \end{rSubsection
 %------------------------------------------------
 
 \end{rSection}
@@ -102,13 +107,12 @@
 \begin{rSection}{Technical Skills}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Office Software & Word, Powerpoint, Excel, OneNote and \LaTeX\\ \\
 
-Hardware & Oscilloscope Operation, SPI, I2C, USART, CAN, Altium Designer, EAGLE, KiCAD, \\ & Schematic Design, PCB Layout, and STM32 \\ \\
+Hardware & Oscilloscopes, SPI, I2C, USART, CAN Bus, \\ & Ethernet (MII, MDIO, TC-10), Altium, Schematic Design, \\ & High-speed PCB Layout \\ \\
 
-Programming & Java, JavaScript (React and JSX), Python, Swift, C, GoLang, AVR Assembly,\\ & Bash Script, Linux, SVN, Git, Kubernetes, and Amazon Web Services. \\
+Programming & Python, C, GoLang, SystemVerilog (AXI, VUnit, BFM Design), \\ & Bash, Linux, Git, FreeRTOS, ARM, and Amazon Web Services \\ \\
 
-
+Office Software & Word, Powerpoint, Excel, OneNote, and \LaTeX
 \end{tabular}
 
 \end{rSection}
@@ -120,23 +124,30 @@ Programming & Java, JavaScript (React and JSX), Python, Swift, C, GoLang, AVR As
 
 %	Volunteering Activities and Projects
 %----------------------------------------------------------------------------------------
-\begin{rSection}{Extracurricular Experience}
+\begin{rSection}{Extracurricular Experience \& Projects}
 
 
-\begin{rSubsection}{Queen's Formula Society of Automotive Engineers}{September 2018 - Present}{Team Lead - Electrical Section}{Kingston, Ontario}
+\begin{rSubsection}{\href{https://github.com/teachee-capstone/teachee}{TeachEE - Accessible Electronics Instrumentation}}{September 2022 - May 2023}{Team Lead}{Kingston, Ontario}
+\item Built a 20MHz USB oscilloscope as a final Electrical and Computer Engineering course project.
+\item Designed the host PCB with a USB 2.0 PHY, 40MSPS ADC, and Xilinx FPGA to relay voltage and current samples to a computer.
+\item Developed the SystemVerilog firmware which sampled four ADC channels and transmitted samples to the desktop application using a custom protocol.
+\item Built GitHub Actions infrastructure to regression test the FPGA design with VUnit and BFMs emulating on-board devices.
+\item First place winner of both the Queen's Capstone Project and IEEE Kingston Chapter Competitions.
+\end{rSubsection}
+
+\newpage
+\begin{rSubsection}{Queen's Formula Society of Automotive Engineers}{September 2018 - May 2023}{Team Lead - Electrical Section}{Kingston, Ontario}
 \item Leading all software developers and hardware designers on the team. Assisting with technical issues in addition to defining the overall system architecture.
 \item Architect of the CAN Bus network employed on all vehicles from 2020 onward. Wrote a
   custom CAN library in C++ to allow other team members to easily access CAN
   data in their respective software projects.
 \item Implemented inter-MCU communication protocols using Consistent Overhead Byte Stuffing (COBS) and checksums to ensure data integrity.
 \item Moved all microcontrollers from Arduino and off-the-shelf shields to fully custom STM32 ARM PCB designs.
-\item Currently leading the development of an electrical vehicle for the 2023-2024 racing season.
-
 \end{rSubsection}
 
-\begin{rSubsection}{Youth Assisting Youth}{September 2021 - Present}{Volunteer - STEM Tutor}{Toronto, Ontario}
+\begin{rSubsection}{Youth Assisting Youth}{September 2021 - June 2022}{Volunteer - STEM Tutor}{Toronto, Ontario}
 \item Tutoring at-risk youth in STEM subjects with a particular focus on computer science.
-\item Comitted to emphasizing the value of a university education and engineering in particular.
+\item Committed to emphasizing the value of a university education and engineering in particular.
 \end{rSubsection}
 %------------------------------------------------
 
